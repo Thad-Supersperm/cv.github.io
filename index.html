@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .bg-pattern {
+        background-image:
+          linear-gradient(30deg, #CC8800 12%, transparent 12.5%, transparent 87%, #CC8800 87.5%, #CC8800),
+          linear-gradient(150deg, #CC8800 12%, transparent 12.5%, transparent 87%, #CC8800 87.5%, #CC8800),
+          linear-gradient(30deg, #CC8800 12%, transparent 12.5%, transparent 87%, #CC8800 87.5%, #CC8800),
+          linear-gradient(150deg, #CC8800 12%, transparent 12.5%, transparent 87%, #CC8800 87.5%, #CC8800),
+          linear-gradient(60deg, #CC880080 25%, transparent 25.5%, transparent 75%, #CC880080 75%, #CC880080),
+          linear-gradient(60deg, #CC880080 25%, transparent 25.5%, transparent 75%, #CC880080 75%, #CC880080);
+        background-size: 20px 35px;
+        background-position: 0 0, 0 0, 10px 17.5px, 10px 17.5px, 0 0, 10px 17.5px;
+        background-color: #000000;
+      }
+      .lang {
+        display: none;
+      }
+      #eng:target,
+      #ita:target,
+      #jap:target,
+      #rus:target,
+      #esp:target,
+      #fra:target {
+        display: block;
+      }
+      .box {
+        box-shadow:
+          4px 4px 4px 2px #CF0000,
+          8px 8px 4px 4px #00CF00,
+          12px 12px 4px 6px #0000CF;
+        background-color: #CFCFCF;
+        border-radius: 32px;
+        padding: 16px;
+        margin: 16px;
+      }
+      .top {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 32px;
+      }
+      .bottom {
+        margin-top: 64px;
+      }
+      .left {
+        position: fixed;
+        width: 25%;
+        overflow: auto;
+      }
+      .right {
+        margin-left: 25%;
+      }
+    </style>
+  </head>
+  <body class="bg-pattern">
+    <div class="top">
+      <a class="box" href="#eng">English</a>
+      <a class="box" href="#ita">Italiano</a>
+      <a class="box" href="#jap">日本語</a>
+      <a class="box" href="#rus">Русский</a>
+      <a class="box" href="#esp">Español</a>
+      <a class="box" href="#fra">Français</a>
+    </div>
+    <div class="bottom">
+      <div id="eng" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>Andrea Paone</p>
+            <p>January 12, 1996</p>
+            <p>Atri (Italy)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            Through my various roles in the service industry—including the restaurant, hospitality, and personal services sectors—I have gained valuable experience in techniques for assisting and satisfying customers and clients, as well as completing tasks with precision and efficiency. 
+            My experience at Poste Italiane enabled me to work collaboratively as part of a team while also making independent decisions and learning from past mistakes. 
+            I completed a one-year civil service assignment at the CAAF in Pescara, where I managed various administrative procedures. This experience helped me develop precision and organizational skills.
+            I am responsible, as I believe that a job well done depends on attention to detail.
+            I also completed an internship at the immigration office in Pescara. By handling different situations daily, I learned to manage various procedures related to obtaining citizenship and residence permits.
+            I had the opportunity to learn foreign languages—English, Spanish, French, Russian, and Japanese—through my degree program.
+            I became interested in Spanish because I developed a passion for the works of the Chilean writer Luis Sepúlveda, including my favorite, *The Story of a Seagull and the Cat Who Taught Her to Fly*.
+            Thanks to my Colombian partner, I was able to deepen my understanding of the language by practicing it daily with her.
+            Through art history books, I became captivated by the paintings of  French Impressionist artists, which also brought me closer to the language.
+            At the theater, I had the opportunity to discover *The Cherry Orchard* by Anton Chekhov—a manifesto of social change and a first step toward  modern society. 
+            Ever since childhood, watching Japanese cartoons on TV every morning before school has sparked my curiosity about the Land of the Rising Sun, beginning with its culture and eventually inspiring me to study the language itself.
+            As for English, I use it daily—whether watching series and movies or reading scientific journals—and it has become my second language. 
+            Through English, I studied various programming languages, which provided me with a general understanding of both front-end and back-end development and enabled me to create small projects as a self-taught developer.
+            In conclusion, I consider myself a highly motivated and innovative individual who is always ready to keep up with the times, staying updated and well-informed on various aspects of daily life—from technology to culture and beyond.
+          </p>
+        </div>
+      </div>
+      
+      <div id="ita" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>Andrea Paone</p>
+            <p>12 gennaio 1996</p>
+            <p>Atri (TE)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            Durante i numerosi lavori svolti nel settore terziario (ristorazione, accoglienza e servizi alle persone), ho avuto la possibilità di apprendere tecniche efficaci per assistere e soddisfare clienti e utenti , completando i compiti con precisione e rapidità. 
+            La mia esperienza alle Poste Italiane mi ha permesso di  lavorare e collaborare all’interno di un team e , allo stesso tempo, di prendere decisioni autonome, evitando di ripetere gli errori precedenti. 
+            Ho svolto, per un anno, il servizio civile presso il CAAF di Pescara , dove ho avuto l'opportunità di gestire le pratiche relative ai vari servizi, sviluppando precisione e capacità organizzative.
+            Responsabile,  poiché credo che un lavoro ben fatto dipenda dai giusti dettagli.
+            Inoltre, ho svolto un tirocinio presso lo sportello immigrazione con sede a Pescara, dove, confrontandomi quotidianamente con realtà diverse, ho acquisito competenze nell’espletamento di pratiche relative all’ottenimento della cittadinanza e dei permessi di soggiorno.
+            Ho avuto l'opportunità di acquisire competenze in diverse lingue straniere — inglese, spagnolo, francese, russo e giapponese — durante il mio percorso di laurea.
+            Lo spagnolo mi ha appassionato grazie ai libri dello scrittore cileno Luis Sepúlveda, tra cui il mio preferito, "Historia de una gaviota y del gato que le enseñó a volar".
+            Grazie alla mia compagna colombiana, ho potuto approfondire lo studio della lingua praticandola quotidianamente con lei.
+            Dai libri di storia dell’arte mi sono lasciato trasportare dai dipinti degli artisti impressionisti francesi, avvicinandomi così anche alla lingua francese.
+            A teatro, ho avuto la possibilità di conoscere "Il giardino dei ciliegi" dello scrittore Anton Čechov, manifesto del cambiamento sociale e di un primo progresso verso la nostra società odierna. 
+            Fin dall’infanzia , ogni mattina, prima di andare a scuola, guardando i cartoni giapponesi in televisione, è nata in me la curiosità di conoscere il Paese del Sol Levante, partendo dalla cultura fino ad arrivare allo studio vero e proprio della lingua.
+            Per quanto riguarda l’inglese, lo utilizzo quotidianamente sia per guardare serie e film, sia per leggere riviste scientifiche, tanto da considerarlo una seconda lingua. 
+            A causa dell'inglese, ho studiato di versi linguaggi di programmazione che mi hanno permesso di acquisire una visione generale delle figure di Front-end e Back-end, oltre a realizzare alcuni piccoli progetti in modo autodidatta.
+            In conclusione, mi considero una persona non solo motivata e innovativa, ma anche sempre pronta a stare al passo con i tempi, mantenendomi costantemente aggiornato e ben informato su diversi aspetti della vita quotidiana, dalla tecnologia alla cultura e oltre.
+          </p>
+        </div>
+      </div>
+      
+      <div id="jap" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>アンドレア パオネ</p>
+            <p>12日 1月 1996年</p>
+            <p>アトリ (イタリア)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            サービス業（飲食、接客、個人向けサービス）における多様な業務を通じて、顧客や利用者を支援し満足させるための技術を習得し、業務を正確かつ迅速に遂行する能力を身につけることができました。
+            イタリアの郵便局での経験を通じて、チームの一員として協力しながらも、過去の過ちを繰り返さずに自律的に判断を下す能力を身につけることができました。
+            ペスカーラのCAAF（税務・社会保障相談所）で1年間、社会奉仕活動に従事しました。そこで、さまざまな業務手続きを担当し、正確かつ組織的な対応を心がけました。
+            責任感を持って業務に取り組みました。なぜなら、仕事をきちんと成し遂げるためには、細部への配慮が不可欠だと信じているからです。
+            また、ペスカーラにある入国管理局の窓口で実習を行い、日々変化する状況に対応しながら、国籍取得や在留許可に関するさまざまな手続きを学ぶことができました。
+            大学での学びを通じて、英語、スペイン語、フランス語、ロシア語、日本語などの外国語を習得しました。
+            スペイン語に興味を持ったきっかけは、チリの作家ルイス・セプルベダの作品に魅了されたことです。中でも、私のお気に入りは『カモメと、飛ぶことを教えた猫の話』です。
+            コロンビア人のパートナーのおかげで、彼女と毎日会話を重ねることで、スペイン語の習得を深めることができました。
+            美術史の本を通じて、フランスの印象派の画家たちの絵画に心を奪われ、それがきっかけでフランス語にも親しむようになりました。
+            演劇を通じて、作家アントン・チェーホフの『桜の園』に出会う機会を得ました。この作品は社会変革の象徴であり、現代社会への第一歩を示すものです。
+            幼い頃から、毎朝学校に行く前にテレビで日本のアニメを見ていたことで、日本の文化に興味を持ち、やがて本格的な語学学習へとつながる、日の出ずる国について知りたいという好奇心が芽生えました。
+            英語については、ドラマや映画を観る際や科学雑誌を読む際など、日常的に使用しており、第二言語として習得しています。
+            英語を通じてさまざまなプログラミング言語を学び、フロントエンドやバックエンドの役割について概略を理解した上で、独学でいくつかの小さなプロジェクトを作成しました。
+            結論として、私は非常に意欲的で革新的な人間であり、常に時代の流れに遅れを取らないよう、テクノロジーから文化に至るまで、日々のさまざまな事柄について最新情報を把握し、十分な知識を身につけるよう心がけています。
+          </p>
+        </div>
+      </div>
+      
+      <div id="rus" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>Андреа Паоне</p>
+            <p>12 января 1996</p>
+            <p>Атри (Италия)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            В ходе работы в сфере услуг (ресторанный бизнес, гостиничное дело и обслуживание населения) я приобрёл опыт применения методов, позволяющих эффективно удовлетворять потребности клиентов и посетителей, выполняя задачи точно и оперативно. 
+            Опыт работы в «Почте Италии» научил меня эффективно работать в команде и одновременно принимать самостоятельные решения, избегая повторения прежних ошибок. 
+            В течение года я проходил гражданскую службу в CAAF в Пескаре, где получил возможность выполнять процедуры различных отделов, что способствовало развитию моей аккуратности и организованности.
+            Ответственным, поскольку я считаю, что качественно выполненная работа зависит от правильного выбора деталей.
+            Кроме того, я прошёл стажировку в иммиграционном отделе в Пескаре, где, сталкиваясь с различными ситуациями, научился оформлять разнообразные документы для получения гражданства и/или вида на жительство.
+            Благодаря обучению в университете я освоил иностранные языки: английский, испанский, французский, русский и японский.
+            Я изучал испанский язык, потому что увлёкся книгами чилийского писателя Луиса Сепульведы, среди которых моя любимая — «История чайки и кота, который научил её летать».
+            Благодаря моей колумбийской подруге я смог углубить знания языка, ежедневно практикуя его вместе с ней.
+            Читая книги по истории искусства, я увлёкся картинами французских художников-импрессионистов, что также сблизило меня с французским языком.
+            В театре я познакомился с пьесой «Вишнёвый сад» Антона Чехова — манифестом социальных перемен и первым шагом на пути к нашему современному обществу. 
+            С самого детства, каждое утро перед школой, смотря японские мультфильмы по телевизору, у меня пробудился интерес к стране Восходящего солнца — от культуры до непосредственного изучения языка.
+            Что касается английского языка, я использую его ежедневно — как при просмотре сериалов и фильмов, так и при чтении научных журналов. Он стал для меня вторым родным языком. 
+            Благодаря знанию английского языка я изучил различные языки программирования, что позволило мне получить общее представление о ролях фронтенд- и бэкенд-разработчиков, а также самостоятельно создавать небольшие проекты.
+            В заключение я могу охарактеризовать себя как человека более чем мотивированного, инновационного и всегда готового идти в ногу со временем, настолько, что я постоянно слежу за новостями и хорошо осведомлен о различных аспектах повседневной жизни — от технологий до культуры и так далее.
+          </p>
+        </div>
+      </div>
+      
+      <div id="esp" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>Andrea Paone</p>
+            <p>12 de enero 1996</p>
+            <p>Atri (Italia)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            Durante los diversos trabajos que he desempeñado en el sector terciario (restauración, hostelería y servicios a las personas), he tenido la oportunidad de aprender técnicas para atender y satisfacer a los clientes o usuarios, realizando las tareas con precisión y rapidez. 
+            Mi experiencia en Correos de Italia me ha permitido trabajar y colaborar en equipo y, al mismo tiempo, ser capaz de tomar decisiones de forma autónoma, evitando repetir los errores del pasado. 
+            Durante un año, realicé el servicio civil en el CAAF de Pescara, donde tuve la oportunidad de tramitar los expedientes de diversos servicios, lo que me volvió preciso y organizado.
+            y responsable, ya que considero que un trabajo bien hecho se fundamenta en la atención a los detalles adecuados.
+            Además, realicé unas prácticas en la oficina de inmigración con sede en Pescara; al enfrentarme diariamentea distintas situaciones, aprendí a tramitar diversos expedientes para la obtención de la ciudadanía y/o permisos de residencia.
+            Tuve la oportunidad de aprender idiomas extranjeros —inglés, español, francés, ruso y japonés— durante mi carrera universitaria.
+            Me apasionó el español por los libros del escritor chileno Luis Sepúlveda, entre los cuales destaca mi favorito: «Historia de una gaviota y del gato que le enseñó a volar».
+            Gracias a mi pareja colombiana, pude profundizar en el estudio del idioma practicándolo diariamente con ella.
+            A través de los libros de historia del arte, me dejé cautivar por las pinturas de los artistas impresionistas franceses, acercándome de este modo también al idioma.
+            En el teatro, tuve la oportunidad de conocer «El jardín de los cerezos», del escritor Antón Chéjov; una obra que representa un manifiesto sobre el cambio social y un primer paso hacia nuestra sociedad actual. 
+            Desde mi infancia, cada mañana, antes de ir al colegio y al ver dibujos animados japoneses en la televisión, me surgió la curiosidad por conocer el país del Sol Naciente, comenzando por su cultura y llegando finalmente al estudio propiamente dicho del idioma.
+            En cuanto al inglés, lo utilizo a diario tanto para ver series y películas como para leer revistas científicas, por lo que se ha convertido en una segunda lengua. 
+            Gracias al inglés, he estudiado varios lenguajes de programación que me han permitido formarme una idea general sobre las áreas de Front-end y Back-end, así como crear pequeños proyectos de forma autodidacta.
+            En conclusión, me considero una persona altamente motivada, innovadora y siempre dispuesta a estar a la vanguardia, manteniéndome al día y bien informado sobre diversos aspectos cotidianos, desde la tecnología hasta la cultura, entre otros.
+          </p>
+        </div>
+      </div>
+  
+      <div id="fra" class="lang">
+        <div class="left">
+          <div class="box">
+            <p>Andrea Paone</p>
+            <p>12 janvier 1996</p>
+            <p>Atri (Italie)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="box">
+            Au cours des nombreux emplois que j'ai occupés dans le secteur tertiaire (restauration, accueil et services à la personne), j'ai eu l'occasion d'acquérir des compétences me permettant d'aider et de satisfaire les clients ou usagers, en accomplissant mes tâches avec précision et efficacité. 
+            Mon expérience à La Poste italienne m'a permis de travailler et de collaborer au sein d'une équipe, tout en étant capable de prendre des décisions de manière autonome, sans reproduire les erreurs du passé. 
+            J'ai effectué, pendant un an, mon service civil au CAAF de Pescara, où j'ai eu l'occasion de traiter les dossiers de différents services, ce qui m'a permis de devenir précis et organisé.
+            e suis responsable, car je crois qu’un travail bien fait repose sur le souci du détail.
+            J’ai également effectué un stage au guichet de l’immigration situé à Pescara. Confronté chaque jour à des situations variées, j’ai appris à gérer différentes démarches relatives à l’obtention de la nationalité et des titres de séjour.
+            J’ai eu l’occasion d’apprendre plusieurs langues étrangères dans le cadre de mes études : l’anglais, l’espagnol, le français, le russe et le japonais.
+            L'espagnol, car je me suis passionné pour les livres de l'écrivain chilien Luis Sepúlveda, dont mon préféré est « Historia de una gaviota y del gato que le enseñó a volar ».
+            Grâce à ma compagne colombienne, j'ai pu approfondir l'étude de cette langue en la pratiquant quotidiennement avec elle.
+            À travers les livres d’histoire de l’art, je me suis laissé transporter par les œuvres des artistes impressionnistes français, ce qui m’a également rapproché de la langue.
+            Au théâtre, j’ai eu l’occasion de découvrir « La Cerisaie » d’Anton Tchekhov, un manifeste du changement social et un premier pas vers notre société contemporaine. 
+            Depuis mon enfance, chaque matin avant d’aller à l’école, en regardant des dessins animés japonais à la télévision, j’ai développé une curiosité pour le pays du Soleil Levant, qui a d’abord porté sur la culture, puis s’est finalement orientée vers l’étude proprement dite de la langue.
+            En ce qui concerne l’anglais, je l’utilise quotidiennement, aussi bien pour regarder des séries et des films que pour lire des revues scientifiques, ce qui en a fait ma deuxième langue. 
+            Grâce à l’anglais, j’ai étudié divers langages de programmation, ce qui m’a permis d’acquérir une vision globale des rôles de développeur front-end et back-end, ainsi que de réaliser de petits projets en autodidacte.
+            En conclusion, je me définis comme une personne extrêmement motivée, innovante et toujours prête à évoluer avec son temps, au point de me tenir constamment informée et à jour sur divers aspects de la vie quotidienne, qu’il s’agisse de technologie, de culture, ou d’autres domaines.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div><br></div>
+  </body>
+</html>
